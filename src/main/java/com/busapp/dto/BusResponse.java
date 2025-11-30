@@ -18,6 +18,8 @@ public class BusResponse {
     private Integer capacity;
     private Long routeId;
     
+    // ==================== Constructors ====================
+    
     public BusResponse() {
     }
     
@@ -41,14 +43,45 @@ public class BusResponse {
         this.routeId = routeId;
     }
     
-    public Long getId() { return id; }
-    public void setId(Long id) { this.id = id; }
-    public String getBusNo() { return busNo; }
-    public void setBusNo(String busNo) { this.busNo = busNo; }
-    public String getColor() { return color; }
-    public void setColor(String color) { this.color = color; }
-    public Integer getCapacity() { return capacity; }
-    public void setCapacity(Integer capacity) { this.capacity = capacity; }
-    public Long getRouteId() { return routeId; }
-    public void setRouteId(Long routeId) { this.routeId = routeId; }
+    // ==================== Getters and Setters ====================
+    
+    public Long getId() {
+        return id;
+    }
+    
+    public void setId(Long id) {
+        this.id = id;
+    }
+    
+    public String getBusNo() {
+        return busNo;
+    }
+    
+    public void setBusNo(String busNo) {
+        this.busNo = busNo;
+    }
+    
+    public String getColor() {
+        return color;
+    }
+    
+    public void setColor(String color) {
+        this.color = color;
+    }
+    
+    public Integer getCapacity() {
+        return capacity;
+    }
+    
+    public void setCapacity(Integer capacity) {
+        this.capacity = capacity;
+    }
+    
+    public Long getRouteId() {
+        return routeId;
+    }
+    
+    public void setRouteId(Long routeId) {
+        this.routeId = routeId;
+    }
 }
